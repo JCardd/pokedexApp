@@ -82,7 +82,6 @@ export default function Home() {
               key={id}
               id={id}
               title={pokemon["name"].charAt(0).toUpperCase() + pokemon["name"].slice(1)}
-              text="Pokémon"
               buttonText="like"
               src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`}
             />
